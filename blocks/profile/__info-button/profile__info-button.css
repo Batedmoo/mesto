@@ -1,0 +1,11 @@
+.profile__info-button {
+  background-image: url(../../../images/profile__info-button.svg);
+  width: 24px;
+  height: 24px;
+  background-color: #000;
+  border: 1px solid #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
