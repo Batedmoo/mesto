@@ -9,3 +9,20 @@
   line-height: 48px;
   padding-bottom: 16px;
 }
+
+@media screen and (max-width: 880px) {
+  .profile__info-name {
+    font-size: 27px;
+    line-height: 1.2;
+    max-width: 250px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .profile__info-name {
+    margin-left: 24px;
+    margin-right: 10px;
+    max-width: 189px;
+  }
+}
