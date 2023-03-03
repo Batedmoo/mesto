@@ -6,6 +6,7 @@ let popup = document.querySelector(".popup");
 function closePopup() {
   popup.classList.remove("popup_opened");
 }
+
 profileEditButton.addEventListener("click", function () {
   popup.classList.add("popup_opened");
 });
