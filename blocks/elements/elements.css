@@ -14,9 +14,15 @@
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 880px) {
   .elements {
-    padding-right: 19px;
-    padding-left: 19px;
+    justify-content: center;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .elements {
+    max-width: 282px;
   }
 }

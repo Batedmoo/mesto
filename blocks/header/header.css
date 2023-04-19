@@ -14,8 +14,10 @@
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
   .header {
     max-width: 320px;
+    max-height: 56px;
+    margin-bottom: 0px;
   }
 }
